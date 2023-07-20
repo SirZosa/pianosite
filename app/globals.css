@@ -1,0 +1,45 @@
+html {
+  scroll-behavior: smooth;
+}
+
+main{
+  background: linear-gradient(black, #220901)
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BC3908; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ad2f02;
+}
+
+.container{
+  margin: 0 auto; 
+}
+
+@media (min-width:1000px){
+  .container{
+    max-width: 1000px;
+  }
+}

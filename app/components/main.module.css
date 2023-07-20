@@ -1,0 +1,55 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 1.5em;
+    color: #f6cc7e;
+}
+
+.container p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video{
+    width: 85%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    border: #f6cc7e 2px solid;
+}
+
+.videoSelector{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.videoSelector h4{
+    width: 300px;
+}
+
+.videoSelector span{
+    align-self: center;
+    font-size: 1.5em;
+    color: #f6cc7e;
+    cursor: pointer;
+    user-select: none;
+}
+
+.videoSelector span:hover{
+    transform: scale(1.1);
+}
+
+.videoSelector span:active{
+    transform: scale(0.98);
+}
+
+
+
+@media (min-width:1000px){
+    .container{
+      max-width: 1000px;
+    }
+  }
