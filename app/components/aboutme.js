@@ -9,7 +9,7 @@ export default function Aboutme() {
                 <div className={styles.content}>
                     <div className={styles.p1}>
                         <h4>Beggining</h4>
-                        <p>When I was around 12 years old (2009), I was given as a birthday present a Casio keyboard which had some melodies saved that cab be learned. That was the beggining, but I left the keyboard for some years by different reasons.</p>
+                        <p>When I was around 12 years old (2009), I was given as a birthday present a Casio keyboard which had some melodies saved that can be learned. That was the beggining, but I left the keyboard for some years by different reasons.</p>
                     </div>
                     <img className={styles.img1} src="img/piano.jpg" alt="my actual piano"></img>
                     <div className={styles.p2}>
