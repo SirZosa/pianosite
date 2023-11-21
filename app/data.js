@@ -1,5 +1,9 @@
 export const video = [
     {
+      name: "Joji - Die for you",
+      link: "https://www.youtube.com/embed/74YUNnczH8I?si=D4MaF_d5LYQn6fjK"
+    },
+    {
       name: "John Legend - All of me",
       link: "https://www.youtube.com/embed/OlYuHHCI_wk"
     },
